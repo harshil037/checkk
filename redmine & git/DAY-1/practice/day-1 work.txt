@@ -1,0 +1,7 @@
+Git url : https://github.com/harshil037/try_git
+
+work : pull, push, commit, add [also check status, log, checkout]
+
+commits : 17
+	initial commit, creating & upload, pull, changes, push etc.
+	upload flowchart via upload file & then delete directory 

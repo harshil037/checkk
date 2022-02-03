@@ -1,0 +1,8 @@
+Git url : https://github.com/harshil037/try_git2
+
+work : pull, push, commit, add , stage, stash, conflict
+
+commits : 17
+	initial commit, creating & upload, push, changes from remote, pull --> conflict, resolve conflic etc.
+	stage --> upload only stage changes
+	stash --> pull he already changed work from remote and than apply stash back --> stage merge change then push
