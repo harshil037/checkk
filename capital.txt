@@ -1,1 +1,0 @@
-Capital file to check case sensitive.
