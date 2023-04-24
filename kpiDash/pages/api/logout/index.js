@@ -12,3 +12,5 @@ handler.get(async (req, res) => {
     message: 'logout success',
   })
 })
+
+export default handler

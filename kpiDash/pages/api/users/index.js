@@ -14,12 +14,14 @@ handler.post(async (req, res) => {
 
     if (!(email && password && firstname && lastname)) {
       res.status(400).json({ error: 'All fields required', data: null })
+      return
     }
 
     const existingUser = await find({ db: req.db, collection: 'users', find: { email }, limit: 1 })
 
     if (existingUser.data) {
       res.status(401).json({ error: 'User already exists', data: null })
+      return
     }
 
     const encryptedPassword = await bcrypt.hash(password, 10)
@@ -32,6 +34,7 @@ handler.post(async (req, res) => {
         lastname,
         email: email.toLowerCase(),
         password: encryptedPassword,
+        role:'admin'
       },
     })
 
@@ -47,6 +50,7 @@ handler.post(async (req, res) => {
         expiresIn: '2h',
       },
     )
+    console.log("token : ", token)
     user.token = token
 
     user.password = undefined
@@ -56,3 +60,5 @@ handler.post(async (req, res) => {
     res.status(500).json({ error: error.message, data: null })
   }
 })
+
+export default handler

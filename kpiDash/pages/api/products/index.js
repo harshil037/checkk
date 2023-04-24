@@ -9,3 +9,5 @@ handler.use(middleware).use(isLoggedIn).use(customRole('admin'))
 handler.get(async (req, res) => {
   res.status(200).json({ message: 'hello from products' })
 })
+
+export default handler

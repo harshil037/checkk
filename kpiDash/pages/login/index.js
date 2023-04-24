@@ -1,5 +1,9 @@
 import React, { useState } from 'react'
+import { useUser } from '../../lib/hooks'
+
 const Login = () => {
+  const [user, {mutate}] = useUser()
+  console.log("user : ", user)
   const [errorMsg, setErrorMsg] = useState('')
   const [values, setValues] = useState({
     password: '',
@@ -21,8 +25,6 @@ const Login = () => {
           email: emailValue,
           password: passwordValue,
         }
-
-        console.log('body : ', body)
 
         const res = await fetch('/api/login', {
           method: 'POST',

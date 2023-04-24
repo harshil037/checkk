@@ -13,39 +13,43 @@ const Register = () => {
 
   const onSubmit = async (e) => {
     e.preventDefault()
+    const firstName = e.currentTarget.firstName.value
+    const lastName = e.currentTarget.lastName.value
     const emailValue = e.currentTarget.email.value
     const passwordValue = e.currentTarget.password.value
 
-    if (emailValue) {
+    const mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+
+    if (emailValue.match(mailformat)) {
       if (passwordValue) {
         const body = {
+          firstname: firstName,
+          lastname: lastName,
           email: emailValue,
           password: passwordValue,
         }
-
-        console.log('body : ', body)
-
-        const res = await fetch('/api/login', {
+        const res = await fetch('/api/users', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(body),
         })
         if (res.status === 200) {
-          console.log('LOGGED IN')
+          console.log('Register')
         } else {
-          setErrorMsg('Incorrect email or password.')
+          console.log('Not Register')
+        //   setErrorMsg('Incorrect email or password.')
         }
       } else {
         setErrorMsg('Please enter password.')
       }
     } else {
-      setErrorMsg('Please enter Email.')
+      setErrorMsg('Please enter valid email address.')
     }
   }
 
   return (
     <div className="flex items-center justify-center">
-      <form id="login" className="flex flex-col w-1/5 mt-36" onSubmit={onSubmit}>
+      <form id="register" className="flex flex-col w-1/5 mt-36" onSubmit={onSubmit}>
         <div>
           <div className="">
             <div className="w-full mb-4">
@@ -58,7 +62,27 @@ const Register = () => {
               />
             </div>
             <div className="w-full mb-6 text-center">
-              <h2 className="font-medium text-2xl">Login in to Xero </h2>
+              <h2 className="font-medium text-2xl">Register to Xero </h2>
+            </div>
+            <div className="w-full mb-4">
+              {/* <h2 className="block text-grey-darker text-sm font-bold mb-2">Email</h2> */}
+              <input
+                id="firstName"
+                label="FirstName"
+                type="text"
+                className="shadow appearance-none border w-full py-2 px-3 text-grey-darker"
+                placeholder="First Name"
+              />
+            </div>
+            <div className="w-full mb-4">
+              {/* <h2 className="block text-grey-darker text-sm font-bold mb-2">Email</h2> */}
+              <input
+                id="lastName"
+                label="LastName"
+                type="text"
+                className="shadow appearance-none border w-full py-2 px-3 text-grey-darker"
+                placeholder="Last Name"
+              />
             </div>
             <div className="w-full mb-4">
               {/* <h2 className="block text-grey-darker text-sm font-bold mb-2">Email</h2> */}
@@ -99,19 +123,11 @@ const Register = () => {
             </div>
             <div className="w-full my-4 text-center">
               <input
-                form="login"
+                form="register"
                 type="submit"
-                value="Log In"
+                value="Register"
                 className={`w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none font-medium text-sm px-5 py-2.5 cursor-pointer`}
               />
-            </div>
-            <div className="w-full flex items-center justify-center gap-10 my-8">
-              <div className="cursor-pointer text-xs text-blue-500 hover:text-blue-700 hover:underline">
-                Forgot password?
-              </div>
-              <div className="cursor-pointer text-xs text-blue-500 hover:text-blue-700 hover:underline">
-                Can't log in?
-              </div>
             </div>
             {errorMsg && <div className="flex w-full mt-2 text-center text-red-500 md:mt-6">{errorMsg}</div>}
           </div>
