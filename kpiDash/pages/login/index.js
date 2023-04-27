@@ -1,14 +1,26 @@
-import React, { useState } from 'react'
-import { useUser } from '../../lib/hooks'
+import { useRouter } from 'next/router'
+import React, { useState, useEffect } from 'react'
 
 const Login = () => {
-  const [user, {mutate}] = useUser()
-  console.log("user : ", user)
+  const router = useRouter()
   const [errorMsg, setErrorMsg] = useState('')
   const [values, setValues] = useState({
     password: '',
     showPassword: false,
   })
+
+  useEffect(() => {
+    ;(async () => {
+      const res = await fetch('api/user', {
+        method: 'GET',
+        headers: { 'Content-Type': 'application/json' },
+      })
+      const user = await res.json()
+      if (user && user.data?.role) {
+        router.push('/')
+      }
+    })()
+  }, [])
 
   const handleChange = (prop) => (event) => {
     setValues({ ...values, [prop]: event.target.value })
@@ -32,7 +44,7 @@ const Login = () => {
           body: JSON.stringify(body),
         })
         if (res.status === 200) {
-          console.log('LOGGED IN')
+          router.push('/')
         } else {
           setErrorMsg('Incorrect email or password.')
         }
@@ -107,8 +119,12 @@ const Login = () => {
               />
             </div>
             <div className="w-full flex items-center justify-center gap-10 my-8">
-                <div className='cursor-pointer text-xs text-blue-500 hover:text-blue-700 hover:underline'>Forgot password?</div>
-                <div className='cursor-pointer text-xs text-blue-500 hover:text-blue-700 hover:underline'>Can't log in?</div>
+              <div className="cursor-pointer text-xs text-blue-500 hover:text-blue-700 hover:underline">
+                Forgot password?
+              </div>
+              <div className="cursor-pointer text-xs text-blue-500 hover:text-blue-700 hover:underline">
+                Can't log in?
+              </div>
             </div>
             {errorMsg && <div className="flex w-full mt-2 text-center text-red-500 md:mt-6">{errorMsg}</div>}
           </div>

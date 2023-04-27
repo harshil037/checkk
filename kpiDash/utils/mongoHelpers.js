@@ -22,14 +22,16 @@ export const insert = async ({ db, collection, document }) => {
       ? await db
           .collection(collection) //
           .insertMany(document)
-          .then(({ acknowledged, insertedId }) => {
-            return acknowledged ? { data: insertedId, error: null } : { data: null, error: 'error inserting documents' }
+          .then(({ result, ops }) => {
+            return result?.ok ? { data: ops[0], error: null } : { data: null, error: 'error inserting documents' }
           })
       : await db
           .collection(collection) //
           .insertOne(document)
-          .then(({ acknowledged, insertedId }) => {
-            return acknowledged ? { data: insertedId, error: null } : { data: null, error: 'error inserting document' }
+          // .then(({ acknowledged, insertedId }) => {
+          //   return acknowledged ? { data: insertedId, error: null } : { data: null, error: 'error inserting document' }
+          .then(({result, ops}) => {
+            return result?.ok ? { data: ops[0], error: null } : { data: null, error: 'error inserting document' }
           })
   } catch (error) {
     return { data: null, error }

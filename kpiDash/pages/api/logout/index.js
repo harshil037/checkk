@@ -6,7 +6,8 @@ const handler = nextConnect()
 handler.use(middleware)
 
 handler.get(async (req, res) => {
-  res.cookie('token', null, { expires: new Date(Date.now()), httpOnly: true })
+  // res.cookie('token', null, { expires: new Date(Date.now()), httpOnly: true })
+  res.setHeader('Set-Cookie', `token=deleted;Max-Age=0;HttpOnly`)
   res.status(200).json({
     success: true,
     message: 'logout success',

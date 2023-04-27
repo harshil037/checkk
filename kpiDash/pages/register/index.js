@@ -1,6 +1,8 @@
+import { useRouter } from 'next/router'
 import React, { useState } from 'react'
 
 const Register = () => {
+  const router = useRouter()
   const [errorMsg, setErrorMsg] = useState('')
   const [values, setValues] = useState({
     password: '',
@@ -33,8 +35,8 @@ const Register = () => {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(body),
         })
-        if (res.status === 200) {
-          console.log('Register')
+        if (res.status === 201) {
+          router.push("/login")
         } else {
           console.log('Not Register')
         //   setErrorMsg('Incorrect email or password.')

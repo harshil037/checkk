@@ -3,6 +3,8 @@ import { ObjectId } from 'mongodb'
 import { find } from '../utils/mongoHelpers'
 
 export const isLoggedIn = async (req, res, next) => {
+  if(!req.cookies?.token) return
+
   const token = req.cookies?.token || req.header?.Authorization?.replace('Bearer ', '')
 
   if (!token) {

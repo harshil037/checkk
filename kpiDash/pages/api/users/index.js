@@ -50,7 +50,6 @@ handler.post(async (req, res) => {
         expiresIn: '2h',
       },
     )
-    console.log("token : ", token)
     user.token = token
 
     user.password = undefined

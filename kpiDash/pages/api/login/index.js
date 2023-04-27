@@ -37,6 +37,7 @@ handler.post(async (req, res) => {
       {
         user_id: user._id,
         email: user.email,
+        role:user.role
       },
       process.env.SECRET_KEY,
       {
