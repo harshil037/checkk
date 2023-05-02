@@ -1,0 +1,126 @@
+{
+  "header": {
+    "status": { "en": "Status", "de": "Status", "it": "Stato" },
+    "all": { "en": "All", "de": "Alle", "it": "Tutte" },
+    "language": { "en": "Language", "de": "Sprache", "it": "Lingua" },
+    "columns": { "en": "Columns", "de": "Rubriken", "it": "Colonne" },
+    "exportUser": {
+      "en": "Export User Details",
+      "de": "Benutzerdetails exportieren",
+      "it": "Esportazione dei dettagli dell'utente"
+    }
+  },
+  "general": {
+    "rowsPerPage": { "en": "Rows per page", "de": "Zeilen pro Seite", "it": "righe per pagina" }
+  },
+  "parkingTabs": {
+    "tickets": { "en": "Tickets", "de": "Tickets", "it": "Biglietti" },
+    "customers": { "en": "Customers", "de": "Kunden", "it": "Clienti" },
+    "transactions": { "en": "Transactions", "de": "Transaktionen", "it": "Transazioni" },
+    "analytics": { "en": "Analytics", "de": "Analytics", "it": "Analytics" }
+  },
+  "customers": {
+    "parkingCustomers": { "en": "Parking Customers", "de": "Kunden Parken", "it": "Clienti parcheggio" },
+    "firstName": { "en": "First Name", "de": "Vorname", "it": "Nome" },
+    "lastName": { "en": "Last Name", "de": "Nachname", "it": "Cognome" },
+    "nationality": { "en": "Nationality", "de": "Nationalität", "it": "Nazionalità" },
+    "email": { "en": "Email", "de": "E-Mail", "it": "Email" },
+    "phoneNumber": { "en": "Phone Number", "de": "Telefon-Nummer", "it": "Numero di telefono" },
+    "purpose": { "en": "Purpose", "de": "Zweck", "it": "Obiettivo" },
+    "inspiration": { "en": "Inspiration", "de": "Inspiration", "it": "Ispirazione" },
+    "commercial": { "en": "Commercial", "de": "Werbung", "it": "Pubblicità" }
+  },
+  "transactions": {
+    "parkingTransactions": {
+      "en": "Parking Transactions",
+      "de": "Parkplatz-Transaktionen",
+      "it": "Transazioni parcheggio"
+    },
+    "transactionId": { "en": "Transaction ID", "de": "Transaktions-ID", "it": "ID transazione" },
+    "paymentStatus": { "en": "Payment status", "de": "Zahlungsstatus", "it": "Stato del pagamento" },
+    "refundTransactionId": {
+      "en": "Refund transaction ID",
+      "de": "Erstattungs-Transaktions-ID",
+      "it": "ID transazione di rimborso"
+    },
+    "price": { "en": "Price", "de": "Preis", "it": "Prezzo" },
+    "viewTicket": { "en": "View Ticket", "de": "Ticket ansehen", "it": "Visualizza biglietto" },
+    "details": { "en": "Details", "de": "Details", "it": "Detaggli" }
+  },
+  "tickets": {
+    "filterCreatedAt": {
+      "en": "Filter by created at",
+      "de": "Filtern nach erstellt am",
+      "it": "Filtra per creazione a"
+    },
+    "filterPeriod": { "en": "Filter by period", "de": "Fiiltern nach Zeitraum", "it": "Filtra per periodo" },
+    "parkingTickets": { "en": "Parking Tickets", "de": "Parktickets", "it": "Biglietti di parcheggio" },
+    "dailySold": {
+      "en": "Daily sold tickets",
+      "de": "Täglich verkaufte Tickets",
+      "it": "Biglietti venduti giornalmente"
+    },
+    "dailyEntrance": { "en": "Daily entrance", "de": "Täglicher Eintritt", "it": "Ingresso giornaliero" },
+    "dailyExid": { "en": "Daily exit", "de": "Täglicher Exit", "it": "Exit giornaliero" },
+    "createdAt": { "en": "Created at", "de": "Erstellt am", "it": "Creato a" },
+    "firstName": { "en": "First Name", "de": "Vorname", "it": "Nome" },
+    "lastName": { "en": "Last Name", "de": "Nachname", "it": "Cognome" },
+    "email": { "en": "Email", "de": "E-Mail", "it": "Email" },
+    "phoneNumber": { "en": "Phone Number", "de": "Telefon-Nummer", "it": "Numero di telefono" },
+    "period": { "en": "Period", "de": "Zeitraum", "it": "Periodo" },
+    "parkingDate": { "en": "Parking date", "de": "Datum für das Parken", "it": "Data di parcheggio" },
+    "plates": { "en": "Plates", "de": "KFZ-Kennzeichen", "it": "Targhe" },
+    "ticketId": { "en": "Ticket ID", "de": "Ticket ID", "it": "ID Biglietto" },
+    "status": { "en": "Status", "de": "Status", "it": "Stato" },
+    "sendEmail": { "en": "Send Email", "de": "E-Mail senden", "it": "Invia e-mail" },
+    "confirmBooking": { "en": "Confirm booking", "de": "Buchung bestätigen", "it": "Confermare prenotazione" },
+    "rebook": { "en": "Re-book", "de": "Neu buchen", "it": "Riprenotare" },
+    "cancel": { "en": "Cancel", "de": "Stornieren", "it": "Annullare" },
+    "rebooking": { "en": "Re-booking", "de": "Neubuchung", "it": "Nuova prenotazione" },
+    "confirm": { "en": "Confirm", "de": "Bestätigen", "it": "Confermare" },
+    "confirmed": { "en": "Confirmed", "de": "Bestätigt", "it": "Confermato" },
+    "confirming": { "en": "Confirming", "de": "Bestätigen", "it": "Confermare" },
+    "date": { "en": "Date", "de": "Datum", "it": "Data" },
+    "price": { "en": "Price", "de": "Preis", "it": "Prezzo" },
+    "rebookParking": { "en": "Re-book parking", "de": "Parkplatz neu buchen", "it": "Riprenotare il parcheggio" },
+    "noTemplateFound": { "en": "No Template found", "de": "Kein Template gefunden", "it": "Nessun template trovato" },
+    "resendEmail": { "en": "Re-send Email", "de": "E-Mail erneut senden", "it": "Reinvio dell'e-mail" },
+    "noRecordsFound": { "en": "No records found", "de": "Keine Einträge gefunden", "it": "Nessuna voce trovata" },
+    "checkoutId": { "en": "Checkout ID", "de": "Checkout ID", "it": "ID Checkout" },
+    "merchantTransactionId": {
+      "en": "Merchant Transaction ID",
+      "de": "Transaktions-ID des Händlers",
+      "it": "ID transazione commerciante"
+    },
+    "nationality": { "en": "Nationality", "de": "Nationalität", "it": "Nazionalità" },
+    "parkingCode": { "en": "Parking code", "de": "Parken Code", "it": "Codice parcheggio" },
+    "transactionId": { "en": "Transaction ID", "de": "Transaktions-ID", "it": "ID transazione" },
+    "updatedAt": { "en": "Updated at", "de": "Aktualisiert am", "it": "Aggiornato a" },
+    "purpose": { "en": "Purpose", "de": "Zweck", "it": "Obiettivo" },
+    "voucherCode": { "en": "Voucher code", "de": "Gutschein Code", "it": "Codice buono" },
+    "type": { "en": "Type", "de": "Typ", "it": "Tipo" },
+    "parkingWithVoucher": { "en": "Parking with voucher", "de": "Parken mit Gutschein", "it": "Parcheggio con buono" },
+    "parkingOnly": { "en": "Parking only", "de": "Nur Parken", "it": "Solo parcheggio" }
+  },
+  "analytics": {
+    "parkingAnalytics": { "en": "Parking Analytics", "de": "Parkplatz Analytics", "it": "Analytics parcheggio" },
+    "totalSalesPrice": { "en": "Total sales price", "de": "Gesamtverkaufspreis", "it": "Prezzo totale di vendita" },
+    "totalSoldTickets": {
+      "en": "Total sold tickets",
+      "de": "Insgesamt verkaufte Tickets",
+      "it": "Totale biglietti venduti"
+    },
+    "voucherTickets": { "en": "Voucher tickets", "de": "Gutschein-Tickets", "it": "Biglietti buono" },
+    "dailyTickets": { "en": "Daily tickets", "de": "Tagestickets", "it": "Biglietti giornalieri" },
+    "totalEntrance": { "en": "Total entrance", "de": "Gesamt Eingang", "it": "Entrata totale" },
+    "totalExid": { "en": "Total exit", "de": "Gesamt Exit", "it": "Totale exit" },
+    "totalParking": { "en": "Total parking", "de": "Parken Gesamt", "it": "Totale parcheggio" }
+  },
+  "feedbacks": {
+    "createdAt": { "en": "Created at", "de": "Erstellt am", "it": "Creato a" },
+    "parkingFeedbacks": { "en": "Parking feedback", "de": "Feedback Parken", "it": "Feedback parcheggio" },
+    "name": { "en": "Name", "de": "Name", "it": "Nome" },
+    "email": { "en": "Email", "de": "E-Mail", "it": "Email" },
+    "message": { "en": "Message", "de": "Nachricht", "it": "Messaggio" }
+  }
+}

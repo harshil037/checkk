@@ -1,0 +1,718 @@
+Type of props:-
+
+*Note :- "default" is a reserved keyword in the styles object.
+         so we can not create a key named "default" inside styles props.
+-----------------------------------------------------------------------------------------------------------------------------
+Text:-
+    to store string or number
+    output:- key:'value'
+    props:-
+        {
+            inputType: 'text',
+            type: 'string',
+            key: 'demoText',
+            label: {
+                en: 'Label',
+            },
+            description:{
+                en:"to show help description"
+            },
+            placeholder:{
+                en:"to show placeholder"
+            },
+            defaultValue:{
+                en:"to set default value"
+            },
+            validation: { required : true }
+        }
+    language based text box:-
+        to store string or number language based
+        output:- key:{en:'value in en',it:'value in it',de:'value in de'}
+    props:-
+        {
+            inputType: 'text',
+            type: 'string',
+            key: 'demoTextLang',
+            label: {
+                en: 'EN Label',
+                it: 'IT Label',
+                de: 'DE Label'
+            },
+            description:{
+                en:"en help description",
+                it:"it help description",
+                de:"de help description"
+            },
+             placeholder:{
+                en:"en placeholder",
+                it:"it placeholder",
+                de:"de placeholder"
+            },
+             defaultValue:{
+                en:"en defaultValue",
+                it:"it defaultValue",
+                de:"de defaultValue"
+            },
+            languages: true,
+            validation: { required : true }
+        }
+-----------------------------------------------------------------------------------------------------------------------------
+Select:-
+    to store string or number using html select list
+    output:- key:'value'
+    props:-
+        {
+            inputType: 'select',
+            type: 'string',
+            key: 'demoSelect',
+            label: {
+                en: 'Label',
+            },
+            description: {
+                en: 'en description',
+            },
+            placeholder: {
+                en: 'en placeholder',
+            },
+            defaultValue: {
+               value: { 'en': 'value1' }
+            },            
+            options:[
+                {title:"OPTION1",value:"value1"},
+                {title:"OPTION2",value:"value2"},
+                {title:"OPTION3",value:"value3"}
+            ]
+        }
+    language based text box:-
+        to store string or number language based using html select list
+        output:- key:{en:'value in en',it:'value in it',de:'value in de'}
+    props:-
+        {
+            inputType: 'select',
+            type: 'string',
+            key: 'demoSelectLang',
+            label: {
+                en: 'EN Label',
+                it: 'IT Label',
+                de: 'DE Label'
+            },
+            description: {
+                en: 'en description',
+                it: 'it description',
+                de: 'de description',
+            },
+            placeholder: {
+                en: 'en placeholder',
+                it: 'it placeholder',
+                de: 'de placeholder',
+            },
+            defaultValue: {
+               "value": { 'en': 'enValue2', 'de': 'deValue3', it:'enValue1' }
+            },      
+            options:[
+                {title:{en:"EN OPTION1", it:"IT OPTION1", de:"DE OPTION1"}, value:{en:"enValue1", it:"itValue1, de:"deValue1"}},
+                {title:{en:"EN OPTION2", it:"IT OPTION2", de:"DE OPTION2"}, value:{en:"enValue2", it:"itValue2, de:"deValue2"}},
+                {title:{en:"EN OPTION3", it:"IT OPTION3", de:"DE OPTION3"}, value:{en:"enValue3", it:"itValue3, de:"deValue3"}}
+            ],
+            languages:true
+        }
+-----------------------------------------------------------------------------------------------------------------------------
+Toggle:-
+    to store boolean values
+    output:- key:true
+    props:-
+        {
+            inputType: 'toggle',
+            type: 'boolean',
+            key: 'demoToggle',
+            label: {
+                en: 'Label',
+            },
+            description: {
+                en: 'en description',
+            },
+            defaultValue: {
+                en: true,
+            },
+        }
+-----------------------------------------------------------------------------------------------------------------------------
+RTE:-
+    to store value in html formate
+    output:- key:'<p>hello world</p>'
+    props:-
+        {
+            inputType: 'rte',
+            type: 'string',
+            key: 'demoRTE',
+            label: {
+                en: 'Label',
+            },
+            description: {
+                en: 'en description',
+            },
+            placeholder: {
+                en: 'en placeholder',
+            },
+            defaultValue: {
+                en: 'en placeholder',
+            },
+        }
+    language based RTE:-
+        to store string or number language based
+        output:- key:{en:'<p>value in en</p>',it:'<p>value in it</p>',de:'<p>value in de</p>'}
+    props:-
+        {
+            inputType: 'rte',
+            type: 'string',
+            key: 'demoRTELang',
+            label: {
+                en: 'EN Label',
+                it: 'IT Label',
+                de: 'DE Label'
+            },
+            description: {
+                en: 'EN description',
+                it: 'IT description',
+                de: 'DE description'
+            },
+            placeholder: {
+                en: 'EN placeholder',
+                it: 'IT placeholder',
+                de: 'DE placeholder'
+            },
+            defaultValue: {
+                en: 'EN defaultValue',
+                it: 'IT defaultValue',
+                de: 'DE defaultValue'
+            },
+            languages: true,
+        }
+-----------------------------------------------------------------------------------------------------------------------------
+List:-
+    for nested level in array
+    props:-
+        {
+            inputType: 'list',
+            type: 'array',
+            key: 'demoList',
+            label: {
+                en: 'Label',
+            },
+            tabView: true  //*optional* boolean value to show list in tabView
+            nested: true,  //*optional* boolean value to nest list inside list
+            maxNesting: 4  //*optional* number value for maximum number of inside nesting
+            "props": [
+                {
+                    inputType: 'text',
+                    type: 'string',
+                    key: 'title',
+                    label: {
+                        en: 'Title'
+                    },
+                   description:{
+                        en:"en help description",
+                        it:"it help description",
+                        de:"de help description"
+                    },
+                    placeholder:{
+                        en:"en placeholder",
+                        it:"it placeholder",
+                        de:"de placeholder"
+                    },
+                    defaultValue:{
+                        en:"en defaultValue",
+                        it:"it defaultValue",
+                        de:"de defaultValue"
+                    },
+                    languages: true
+                },
+                {
+                    inputType: 'rte',
+                    type: 'string',
+                    key: 'demoRTE',
+                    label: {
+                        en: 'Label',
+                    },
+                    description: {
+                        en: 'EN description',
+                    },
+                    placeholder: {
+                        en: 'EN placeholder',
+                    },
+                    defaultValue: {
+                        en: 'EN defaultValue',
+                    },
+                }
+            ]
+        }
+-----------------------------------------------------------------------------------------------------------------------------
+Static List:-
+    for nested level in object
+    props:-
+        {
+            inputType: 'staticList',
+            type: 'object',
+            key: 'demoStaticList',
+            label: {
+                en: 'Label',
+            },
+            tabView: true  //*optional* boolean value to show static list in tabView
+            "props": [
+                {
+                    inputType: 'text',
+                    type: 'string',
+                    key: 'title',
+                    label: {
+                        en: 'Title'
+                    },
+                    description:{
+                        en:"en help description",
+                        it:"it help description",
+                        de:"de help description"
+                    },
+                    placeholder:{
+                        en:"en placeholder",
+                        it:"it placeholder",
+                        de:"de placeholder"
+                    },
+                    defaultValue:{
+                        en:"en defaultValue",
+                        it:"it defaultValue",
+                        de:"de defaultValue"
+                    },
+                    languages: true
+                },
+                {
+                    inputType: 'rte',
+                    type: 'string',
+                    key: 'demoRTE',
+                    label: {
+                        en: 'Label',
+                    },
+                }
+            ]
+        }
+-----------------------------------------------------------------------------------------------------------------------------
+Array:-
+    to store array of string.
+    output:- key:['hello','world']
+    props:-
+        {
+            inputType: 'array',
+            type: 'string',
+            key: 'demoArray',
+            label: {
+                en: 'Label',
+            },
+            description: {
+                en: 'EN description',
+            },
+            placeholder: {
+                en: 'EN placeholder',
+             },
+            defaultValue:[
+                {
+                    key:{en:'item1'}
+                },
+                {
+                    key:{en:'item2'}
+                },
+                {
+                    key:{en:'item3'}
+                }
+            ],
+        }
+    labguage based array:-  to store array of string language based
+    output:- key:{
+                    en:['hello','world'],
+                    it:['nextjs','reactjs'],
+                    de:['javascript','mongoDb']
+                }
+    props:-
+        props:-
+        {
+            inputType: 'array',
+            type: 'string',
+            key: 'demoArrayLang',
+            label: {
+                en: 'Label',
+            },
+            description: {
+                en: 'EN description',
+                it: 'it description',
+                de: 'de description',
+            },
+            placeholder: {
+                en: 'EN placeholder',
+                it: 'it placeholder',
+                de: 'de placeholder',
+             },
+            defaultValue:[
+                {
+                   key:{en:'item1',it:'item1',de:'item1'}
+                },
+                {
+                   key:{en:'item2',it:'item2',de:'item2'}
+                },
+                {
+                   key:{en:'item3',it:'item3',de:'item3'}
+                }
+            ],
+            languages:true
+        }
+-----------------------------------------------------------------------------------------------------------------------------
+Radio:-
+    to store string value using html radio input.
+    output:- key:'value'
+    props:-
+        {
+            inputType: 'radio',
+            type: 'string',
+            key: 'demoRadio',
+            label: {
+                en: 'Demo Radio',
+            },
+            description: {
+                en: 'Demo Radio',
+            },
+            defaultValue: {
+                en: 'italy',
+            },
+            options: [
+                { title: 'Option1', value: 'value1' },
+                { title: 'Option2', value: 'value2' },
+            ],
+        }
+    language based radio:
+        to store language based string value.
+    output:- key:{ en : 'enValue', de : 'deValue', it : 'itValue' }
+    props:-
+        {
+            inputType: 'radio',
+            type: 'string',
+            key: 'demoRadioLang',
+            label: {
+                en: 'Demo Radio Lang',
+            },
+            description: {
+                en: 'Demo Radio',
+                it: 'Demo Radio',
+                de: 'Demo Radio',
+            },
+            defaultValue: {
+                en: 'value1',
+                it: 'itvalue1',
+                de: 'devalue1',
+            },
+            languages: true,
+            options: [
+                {
+                    title: { en: 'Option1', it: 'itOption1', de: 'deOption1' },
+                    value: { en: 'value1', it: 'itValue1', de: 'deValue1' },
+                },
+                {
+                    title: { en: 'Option2', it: 'itOption2', de: 'deOption2' },
+                    value: { en: 'value2', it: 'itValue2', de: 'deValue2' },
+                },
+            ],
+        }
+-----------------------------------------------------------------------------------------------------------------------------
+Keyed Input:-
+    to store string with dynamic key
+    output:- for type array = key:[{'dynamicKey':'value'},{'dynamicKey2':'value2'}]
+             for type object = key:{'dynamicKey':'value','dynamicKey2':'value2'} // currently only available for smts
+    props:-
+        {
+            inputType: 'keyedInput',
+            type: 'array' or 'object',
+            key: 'demoKI',
+            label: {
+                en: 'Label',
+            }
+            description: {
+                en: 'en description',
+            }
+            placeholder: {
+                key: {
+                "en": "key",
+                "it": "chiave",
+                "de": "sleutel"
+                },
+                "value": {
+                "en": "value",
+                "it": "valore",
+                "de": "waarde"
+                }
+          },
+          "defaultValue": [
+            {
+              "key": "first name",
+              "value": {
+                "en": "bharat"
+              }
+            },
+            {
+              "key": "last name",
+              "value": {
+                "en": "parmar"
+              }
+            }
+          ],
+        }
+    language based keyedInput box:- // currently only available for smts
+        to store string language based with dynamic key
+        output:- for type array = key:[{'dynamicKey':{en:'enValue', it:'itValue', de:'deValue'}},{'dynamicKey2':{en:'enValue2', it:'itValue2', de:'deValue2'}}]
+                 for type object = key:{'dynamicKey':{en:'enValue', it:'itValue', de:'deValue'},'dynamicKey2':{en:'enValue2', it:'itValue2', de:'deValue2'}}
+    props:-
+        {
+            inputType: 'keyedInput',
+            type: 'array' or 'object',
+            key: 'demoKILanguage',
+            label: {
+                en: 'Key Input Lnguages',
+            },
+            description: {
+                en: 'en description',
+                it: 'it description',
+                de: 'de description',
+            }
+            placeholder: {
+            key: {
+              "en": "key",
+              "it": "it key",
+              "de": "de key"
+            },
+            "value": {
+              "en": "value",
+              "it": "it value",
+              "de": "de value"
+            }
+          },
+          "defaultValue": [
+            {
+              "key": "key1",
+              "value": {
+                "en": "en value1",
+                "de": "de value1",
+                "it": "it value1"
+              }
+            },
+            {
+              "key": "key2",
+              "value": {
+                "en": "en value 2",
+                "it": "it value 2",
+                "de": "de value 2"
+              }
+            }
+          ],
+            languages: true,
+        }
+-----------------------------------------------------------------------------------------------------------------------------
+Link:-
+    to store link data
+    output:- key:  { title: 'link title', link: 'www.example.com', targetBlank: false }
+    props:-
+        {
+            inputType: 'link',
+            type: 'string',
+            key: 'demoLink',
+            label: {
+                en: 'Demo Link',
+            },
+            "description": {
+                "en": "link"
+          },
+          "defaultValue": {
+            "title": {"en": "link title" },
+            "link": {"en": "en link"},
+            "targetBlank": {"en": true}
+          },
+          "placeholder": {
+            "title": {"en": "title1"},
+            "link": {"en": "link1"}
+          }
+        }
+    language based link:-
+        to store link data language based
+        output:- key:{ 
+                        title: {en:'en link title', it:'it link title', de:'de link title'}, 
+                        link: {en:'www.en-example.com', it:'www.it-example.com', de:'www.de-example.com'},
+                        targetBlank: {en:false, it:false, de:false} 
+                     }
+        props:-
+            {
+                inputType: 'link',
+                type: 'string',
+                key: 'demoLinkLang',
+                label: {
+                    en: 'Demo Link Lang EN',
+                    de: 'Demo Link Lang DE',
+                    it: 'Demo Link Lang IT',
+                },
+                description: {
+                    en: 'description EN',
+                    de: 'description DE',
+                    it: 'description IT',
+                },
+                "defaultValue": {
+                    "title": {
+                        "en": "link title en",
+                        "it": "link title it",
+                        "de": "link title de"
+                     },
+                    "link": {
+                        "en": "link en",
+                        "it": "link it",
+                        "de": "link de"
+                    },
+                 "targetBlank": {
+                    "en": true,
+                    "de": false,
+                    "it": true
+                    }
+                },
+                languages: true,
+            }
+-----------------------------------------------------------------------------------------------------------------------------
+Color:-
+    to store color data in string formate.
+    output:- key: '#b7b6ab'
+    props:-
+        {
+          inputType: 'color',
+          type: 'string',
+          key: 'color-primary',
+          label: {
+            en: 'Color Primary'
+          },
+          description: {en: "link"},
+          defaultValue: { en: "#891010"}
+        }
+-----------------------------------------------------------------------------------------------------------------------------
+Flipboook Pdf:- (editComponent only)
+    to upload pdf and convert its pages in images and store arrary of images.
+    props:-
+        {
+            inputType: 'flipBookPdf',
+            type: 'string',
+            key: 'demoPdf',
+            label: {
+                en: 'Demo Pdf',
+            },
+        }
+-----------------------------------------------------------------------------------------------------------------------------
+Image Upload:- (editComponent only)
+    to upload images from local and kognitiv and store arrary of images.
+    props:-
+        {
+            inputType: 'imageUpload',
+            type: 'string',
+            key: 'demoImageUpload',
+            label: {
+                en: 'Demo Image Upload',
+            },
+        }
+-----------------------------------------------------------------------------------------------------------------------------
+multiSelect:-
+    {
+      "inputType": "multiSelect",
+      "type": "string",
+      "key": "languages123",
+      "label": {
+        "en": "Languages"
+      },
+      "description": {
+        "en": "Languages supported by the widget"
+      },
+      "placeholder": {
+        "en": "Languages"
+      },
+      "defaultValue": {
+        "value": { "en": ["en", "cs"] }
+      },
+      "options": [
+        { "title": "Germany", "value": "de" },
+        { "title": "Italian", "value": "it" },
+        { "title": "English", "value": "en" },
+        { "title": "French", "value": "fr" },
+        { "title": "Dutch", "value": "nl" },
+        { "title": "Czech", "value": "cs" },
+        { "title": "Russe", "value": "ru" }
+      ]
+    },
+
+---- > Language based multiSelect
+ {
+      "inputType": "multiSelect",
+      "type": "string",
+      "key": "demomultiselect123",
+      "label": {
+        "en": "country",
+        "it": "nazione",
+        "de": "land"
+      },
+      "description": {
+        "it": "Seleziona il paese",
+        "en": "select country",
+        "de": "selecteer land"
+      },
+      "placeholder": {
+        "en": "english placeholder",
+        "it": "it placeholder"
+      },
+      "defaultValue": {
+        "value": { "en": ["enValue1", "enValue2"],"it": ["itValue3", "itValue4"] }
+      },
+      "languages": true,
+      "options": [
+        {
+          "title": { "en": "EN OPTION1", "it": "IT OPTION1", "de": "DE OPTION1" },
+          "value": { "en": "enValue1", "it": "itValue1", "de": "deValue1" }
+        },
+        {
+          "title": { "en": "EN OPTION2", "it": "IT OPTION2", "de": "DE OPTION2" },
+          "value": { "en": "enValue2", "it": "itValue2", "de": "deValue2" }
+        },
+        {
+          "title": { "en": "EN OPTION3", "it": "IT OPTION3", "de": "DE OPTION3" },
+          "value": { "en": "enValue3", "it": "itValue3", "de": "deValue3" }
+        },
+        {
+          "title": { "en": "EN OPTION4", "it": "IT OPTION4", "de": "DE OPTION4" },
+          "value": { "en": "enValue4", "it": "itValue4", "de": "deValue4" }
+        },
+        {
+          "title": { "en": "EN OPTION5", "it": "IT OPTION5", "de": "DE OPTION5" },
+          "value": { "en": "enValue5", "it": "itValue5", "de": "deValue5" }
+        },
+        {
+          "title": { "en": "EN OPTION6", "it": "IT OPTION6", "de": "DE OPTION6" },
+          "value": { "en": "enValue6", "it": "itValue6", "de": "deValue6" }
+        },
+        {
+          "title": { "en": "EN OPTION7", "it": "IT OPTION7", "de": "DE OPTION7" },
+          "value": { "en": "enValue7", "it": "itValue7", "de": "deValue7" }
+        }
+      ]
+    }
+-----------------------------------------------------------------------------------------------------------------------------
+OrderList:- 
+    {
+      "inputType": "orderList",
+      "type": "string",
+      "key": "tabOrder",
+      "label": {
+        "en": "Tabs Order"
+      },
+      "description": {
+        "en": "Manage order of tabs"
+      },
+      "options": [
+        { "title": "availability", "value": "avl" },
+        { "title": "amenities", "value": "amn" },
+        { "title": "prices", "value": "prs" },
+        { "title": "offers", "value": "offr" },
+        { "title": "booking", "value": "bkg" },
+      ]
+    }

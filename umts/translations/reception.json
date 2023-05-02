@@ -1,0 +1,419 @@
+{
+  "roomLabel": {
+    "en": "Rooms",
+    "de": "Zimmer",
+    "it": "Camere"
+  },
+  "offerLabel": {
+    "en": "Offers",
+    "de": "Angebote",
+    "it": "Offerte"
+  },
+  "interestLabel": {
+    "en": "Interests",
+    "de": "Interessen",
+    "it": "Interessi"
+  },
+  "replyMessageLabel": {
+    "en": "Reply Message",
+    "de": "Rückantwort",
+    "it": "Messaggio di risposta"
+  },
+  "quickResponseLabel": {
+    "en": "Quick Response",
+    "de": "Quick Response",
+    "it": "Quick Response"
+  },
+  "submitLabel": {
+    "en": "Submit",
+    "de": "Senden",
+    "it": "Invia"
+  },
+  "previewLabel": {
+    "en": "Preview",
+    "de": "Vorschau",
+    "it": "Anteprima"
+  },
+  "mealplansLabel": {
+    "en": "Mealplans",
+    "de": "Verpflegung",
+    "it": "Formula"
+  },
+  "occupancyLabel": {
+    "en": "Occupancy",
+    "de": "Belegung",
+    "it": "Occupazione"
+  },
+  "nextLabel": {
+    "en": "Next",
+    "de": "Weiter",
+    "it": "Avanti"
+  },
+  "roomNameLabel": {
+    "en": "Room Name",
+    "de": "Zimmer-Bezeichung",
+    "it": "Nome della camera"
+  },
+  "priceLabel": {
+    "en": "Price",
+    "de": "Preis",
+    "it": "Prezzo"
+  },
+  "noRoomTextLabel": {
+    "en": "No rooms found for available date range",
+    "de": "Keine Zimmer für den gewählten Zeitraum gefunden.",
+    "it": "Non sono state trovate camere per il periodo selezionato."
+  },
+  "roomErrorLabel": {
+    "en": "No rooms found for available date range",
+    "de": "Keine Zimmer für den gewählten Zeitraum gefunden.",
+    "it": "Non sono state trovate camere per il periodo selezionato."
+  },
+  "noInterestTextLabel": {
+    "en": "No interests found",
+    "de": "Keine Interessen gefunden.",
+    "it": "Non sono stati trovati interessi."
+  },
+  "interestErrorLabel": {
+    "en": "No interests found",
+    "de": "Keine Interessen gefunden.",
+    "it": "Non sono stati trovati interessi."
+  },
+  "noOfferTextLabel": {
+    "en": "No offers found for available date range",
+    "de": "Keine Angebote für den gewählten Zeitraum gefunden.",
+    "it": "Non sono state trovate offerte per il periodo selezionato."
+  },
+  "offerErrorLabel": {
+    "en": "No offers found for available date range",
+    "de": "Keine Angebote für den gewählten Zeitraum gefunden.",
+    "it": "Non sono state trovate offerte per il periodo selezionato."
+  },
+  "calendarErrorLabel": {
+    "en": "Unable to retrieve calendar data. Reason:",
+    "de": "Es konnten keine Kalenderdaten übermittelt werden. Grund:",
+    "it": "Non è stato possibile trasmettere i dati del calendario. Motivo:"
+  },
+  "days": {
+    "de": "So,Mo,Di,Mi,Do,Fr,Sa",
+    "it": "do,lu,ma,me,gi,ve,sa",
+    "en": "Su,Mo,Tu,We,Th,Fr,Sa"
+  },
+  "months": {
+    "de": "Jan,Feb,Mär,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Dez",
+    "it": "Gen,Feb,Mar,Apr,Mag,Giu,Lug,Ago,Set,Ott,Nov,Dic",
+    "en": "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec"
+  },
+  "defaultReplyText": {
+    "de": "basierend auf Ihrer Anfrage haben wir Ihnen folgende Urlaubsangebote im Caravan Park Sexten zusammengestellt. Wir hoffen, es ist das für Sie passende dabei und freuen uns, Sie bald bei uns begrüßen zu dürfen.",
+    "en": "basing on your request, we propose the following offer for your stay at the Caravan Park Sexten. We would be glad if it matches your requests and are pleased to welcome you soon.",
+    "it": "in base alla Vostra richiesta proponiamo la nostra offerta per il Vostro soggiorno al Caravan Park Sexten. Saremo lieti di darVi il benvenuto nella nostra struttura."
+  },
+  "nightsLabel": {
+    "de": "Nächte",
+    "it": "notti",
+    "en": "Nights"
+  },
+  "messageLabel": {
+    "de": "Nachricht",
+    "en": "Message",
+    "it": "Messaggio"
+  },
+  "tooltipLabel": {
+    "de": "Bitte wählen Sie zuerst eine Rate aus",
+    "en": "Please select first any rateplan",
+    "it": "Selezionare prima una tariffa"
+  },
+  "periodLabel": {
+    "de": "Zeitraum",
+    "it": "Periodo",
+    "en": "Period"
+  },
+  "stayLabel": {
+    "de": "Aufenthalt",
+    "en": "Stay",
+    "it": "Soggiorno"
+  },
+  "alternativeLabel": {
+    "de": "Alternativ",
+    "en": "Alternative",
+    "it": "alternativo"
+  },
+  "enquirySummaryLabel": {
+    "de": "Zusammenfassung der Anfrage",
+    "en": "Summary of the enquiry",
+    "it": "Riepilogo della richiesta"
+  },
+  "guestsLabel": {
+    "de": "Gäste",
+    "it": "Ospiti",
+    "en": "Guests"
+  },
+  "adultsLabel": {
+    "de": "Erwachsene",
+    "it": "adulti",
+    "en": "Adults"
+  },
+  "adultLabel": {
+    "de": "Erwachsener",
+    "it": "Adulto",
+    "en": "Adult"
+  },
+  "childrenLabel": {
+    "de": "Kinder",
+    "it": "bambini",
+    "en": "Children"
+  },
+  "childLabel": {
+    "de": "Kind",
+    "it": "Bambino",
+    "en": "Child"
+  },
+  "ageLabel": {
+    "de": "Alter",
+    "it": "Età",
+    "en": "Age"
+  },
+  "yearsLabel": {
+    "de": "Jahre",
+    "it": "anni",
+    "en": "years"
+  },
+  "enquiryLanguageLabel": {
+    "de": "Sprache der Anfrage",
+    "it": "Lingua della richiesta",
+    "en": "Language of enquiry"
+  },
+  "roomOccupancyLabel": {
+    "de": "Belegung",
+    "it": "Occupazione",
+    "en": "Occupancy"
+  },
+  "offerButtonLabel": {
+    "en": "Create a new Offer",
+    "de": "Neues Angebot erstellen",
+    "it": "Creare una nuova offerta"
+  },
+  "bookingButtonLabel": {
+    "en": "Create a new Booking",
+    "de": "Neue Buchung erstellen",
+    "it": "Creare una nuova prenotazione"
+  },
+  "languageLabel": {
+    "de": "Sprache",
+    "en": "Language",
+    "it": "Lingua"
+  },
+  "requestsLabel": {
+    "en": "Requests",
+    "de": "Anfragen",
+    "it": "Richiesta"
+  },
+  "timeStampLabel": {
+    "en": "Time Stamp",
+    "de": "Zeitstempel",
+    "it": "Marca temporale"
+  },
+  "timeStampPlaceholderLabel": {
+    "en": "Search Time Stamp",
+    "de": "Zeitstempel suchen",
+    "it": "Ricerca marca temporale"
+  },
+  "contactLabel": {
+    "en": "Contact",
+    "de": "Kontakt",
+    "it": "Contatto"
+  },
+  "contactPlaceholderLabel": {
+    "en": "Search Contact",
+    "de": "Kontakt suchen",
+    "it": "Ricerca contatto"
+  },
+  "periodPlaceholderLabel": {
+    "en": "Search Period",
+    "de": "Zeitraum suchen",
+    "it": "Ricerca periodo"
+  },
+  "referrerLabel": {
+    "en": "Referrer",
+    "de": "Verweis-Ursprung",
+    "it": "Origine di rinvio"
+  },
+  "referrerPlaceholderLabel": {
+    "en": "Search Referrer",
+    "de": "Verweis-Ursprung suchen",
+    "it": "Ricerca origine di rinvio"
+  },
+  "campaignLabel": {
+    "en": "Campaign",
+    "de": "Kampagne",
+    "it": "Campagna"
+  },
+  "campaignPlaceholderLabel": {
+    "en": "Search Campaign",
+    "de": "Kampagne suchen",
+    "it": "Ricerca campagna"
+  },
+  "enquiryTemplateLabel": {
+    "de": "HTML-Ansicht",
+    "en": "HTML View",
+    "it": "Vista HTML"
+  },
+  "responseSentStatusLabel": {
+    "en": "Sent",
+    "de": "senden",
+    "it": "Invia"
+  },
+  "responseCreateStatusLabel": {
+    "en": "Send Mail Manually",
+    "de": "E-Mail manuell senden",
+    "it": "Invia messaggio manualmente"
+  },
+  "editRequestAndResponseLabel": {
+    "en": "Continue Editing",
+    "de": "Bearbeitung fortsetzen",
+    "it": "Procedere con le modifiche"
+  },
+  "deleteEnquiryLabel": {
+    "en": "Delete Enquiry",
+    "de": "Anfrage löschen",
+    "it": "Cancellare richiesta"
+  },
+  "deleteConfirmLabel": {
+    "en": "Are you sure you want to delete this enquiry?",
+    "de": "Sind Sie sicher, dass Sie diese Anfrage löschen möchten?",
+    "it": "È sicuro che vuole cancellare questa richiesta?"
+  },
+  "templateLanguageLabel": {
+    "en": "Language selection of the template",
+    "de": "Sprachauswahl der Vorlage",
+    "it": "Selezione lingua del template"
+  },
+  "salutationTitleLabel": {
+    "en": "Salutation",
+    "de": "Anrede",
+    "it": "Titolo"
+  },
+  "salutationsLabel": {
+    "en": ["Mr", "Mrs", "Family"],
+    "de": ["Herr", "Frau", "Familie"],
+    "it": ["Signore", "Signora", "Famiglia"]
+  },
+  "firstnameTitleLabel": {
+    "en": "First name",
+    "de": "Vorname",
+    "it": "Nome"
+  },
+  "lastnameTitleLabel": {
+    "en": "Surname",
+    "de": "Nachname",
+    "it": "Cognome"
+  },
+  "addressTitleLabel": {
+    "en": "Address",
+    "de": "Adresse",
+    "it": "Indirizzo"
+  },
+  "zipTitleLabel": {
+    "en": "ZIP",
+    "de": "PLZ",
+    "it": "CAP"
+  },
+  "placeTitleLabel": {
+    "en": "Place",
+    "de": "Ort",
+    "it": "Luogo"
+  },
+  "countryLabel": {
+    "en": "Country",
+    "de": "Land",
+    "it": "Paese"
+  },
+  "phoneLabel": {
+    "en": "Phone",
+    "de": "Telefon",
+    "it": "Telefono"
+  },
+  "addressToggleTitle": {
+    "show": {
+      "en": "Show Address",
+      "de": "Adresse anzeigen",
+      "it": "Mostra indirizzo"
+    },
+    "hide": {
+      "en": "Hide Address",
+      "de": "Adresse verbergen",
+      "it": "Nascondere indirizzo"
+    }
+  },
+  "addRoomButtonLabel": {
+    "en": "Add Room",
+    "de": "Zimmer hinzufügen",
+    "it": "Aggiungere camera"
+  },
+  "calendarCloseButtonLabel": {
+    "en": "Apply",
+    "de": "Anwenden",
+    "it": "Applicare"
+  },
+  "openCalendarLabel": {
+    "en": "Please select date range and occupancy (click here) to open the calendar",
+    "de": "Bitte Zeitraum und Belegung auswählen (hier klicken) um Kalender zu öffnen",
+    "it": "Selezionare periodo e occupazione (cliccare qui) per aprire il calendario"
+  },
+  "clickLabel": {
+    "en": "click here",
+    "de": "hier klicken",
+    "it": "cliccare qui"
+  },
+  "occupancyNotSupportedLabel": {
+    "en": "Occupancy not supported please select the right occupancy",
+    "de": "Diese Belegung ist nicht zulässig, bitte andere Belegung auswählen",
+    "it": "Occupazione non permessa, selezionare un'altra occupazione"
+  },
+  "resetButtonLabel": {
+    "en": "Reset to default",
+    "de": "Zurücksetzen",
+    "it": "Riportare alle condizioni originali"
+  },
+  "showFormButtonLabel": {
+    "en": "Show User Form",
+    "de": "Benutzerformular anzeigen",
+    "it": "Mostra modulo utente"
+  },
+  "showSummaryButtonLabel": {
+    "en": "Show Summary",
+    "de": "Zusammenfassung anzeigen",
+    "it": "Mostra riepilogo"
+  },
+  "responseTabLabel": {
+    "en": "Response",
+    "de": "Antwort",
+    "it": "Risposta"
+  },
+  "messageTabLabel": {
+    "en": "Message",
+    "de": "Nachricht",
+    "it": "Messaggio"
+  },
+  "landingPageRedirectButtonLabel": {
+    "en": "Show landing page",
+    "de": "Landing Page anzeigen",
+    "it": "Mostra la landing page"
+  },
+  "addResponseButtonLabel": {
+    "en": "Add additional response",
+    "de": "Zusätzliche Antwort hinzufügen",
+    "it": "Aggiungere una risposta aggiuntiva"
+  },
+  "emailMessageSubHeadingLabel":{
+    "en": "Message for e-mail template",
+    "de": "Nachricht für E-Mail-Template",
+    "it": "Messaggio per il e-mail template"
+  },
+  "landingPageMessageSubHeadingLabel": {
+    "en": "Message for landing page",
+    "de": "Nachricht für Landing Page",
+    "it": "Messaggio per la landing page"
+  }
+}

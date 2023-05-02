@@ -1,0 +1,83 @@
+{
+    "createdAt": {
+        "en": "Created at",
+        "de": "Erstellt am",
+        "it": "Creato a"
+    },
+    "events": {
+        "en": "Events",
+        "de": "Events",
+        "it": "Events"
+    },
+    "eventDetails": {
+        "en": "Events Details",
+        "de": "Events Details",
+        "it": "Events Details"
+    },
+    "eventName": {
+        "en": "Event Name",
+        "de": "Event Name",
+        "it": "Event Name"
+    },
+    "eventType": {
+        "en": "Event Type",
+        "de": "Event Type",
+        "it": "Event Type"
+    },
+    "clientId": {
+        "en": "Client Id",
+        "de": "Client Id",
+        "it": "Client Id"
+    },
+    "eventId": {
+        "en": "Event Id",
+        "de": "Event Id",
+        "it": "Event Id"
+    },
+    "editEvent": {
+        "en": "Edit Event",
+        "de": "Edit Event",
+        "it": "Edit Event"
+    },
+    "details": {
+        "en": "Details",
+        "de": "Details",
+        "it": "Details"
+    },
+    "viewDetails": {
+        "en": "View Details",
+        "de": "View Details",
+        "it": "View Details"
+    },
+    "addNewEvent": {
+        "en": "Add New Event",
+        "de": "Add New Event",
+        "it": "Add New Event"
+    },
+    "price": {
+        "en": "Price",
+        "de": "Price",
+        "it": "Price"
+    },
+    "total": {
+        "en": "Total",
+        "de": "Total",
+        "it": "Total"
+    },
+    "entityId": {
+        "en": "Entity Id",
+        "de": "Entity Id",
+        "it": "Entity Id"
+    },
+    "password": {
+        "en": "Password",
+        "de": "Password",
+        "it": "Password"
+    },
+    "overrideHobexCreds": {
+        "en": "Use Different Hobex Credentials",
+        "de": "Use Different Hobex Credentials",
+        "it": "Use Different Hobex Credentials"
+    },
+    "rowsPerPage": { "en": "Rows per page", "de": "Zeilen pro Seite", "it": "righe per pagina" }
+}

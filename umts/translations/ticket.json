@@ -1,0 +1,98 @@
+{
+  "createdAt": {
+    "en": "Created on",
+    "de": "Erstellt am",
+    "it": "Creato il"
+  },
+  "concertTickets": {
+    "en": "Concert tickets",
+    "de": "Konzert-Tickets",
+    "it": "Biglietti concerto"
+  },
+  "firstName": {
+    "en": "First name",
+    "de": "Vorname",
+    "it": "Nome"
+  },
+  "lastName": {
+    "en": "Last name",
+    "de": "Nachname",
+    "it": "Cognome"
+  },
+  "email": {
+    "en": "Email",
+    "de": "E-Mail",
+    "it": "E-mail"
+  },
+  "telephone": {
+    "en": "Phone number",
+    "de": "Telefonnummer",
+    "it": "Numero di telefono"
+  },
+  "codes": {
+    "en": "Codes",
+    "de": "Codes",
+    "it": "Codice"
+  },
+  "noRecordsFound": {
+    "en": "No records found",
+    "de": "Keine Einträge gefunden",
+    "it": "Nessuna voce trovata"
+  },
+  "checkoutId": {
+    "en": "Checkout ID",
+    "de": "Checkout Nr.",
+    "it": "Codice checkout"
+  },
+  "sent": {
+    "en": "Sent",
+    "de": "Gesendet",
+    "it": "Inviato"
+  },
+  "pending": {
+    "en": "Pending",
+    "de": "Ausstehend",
+    "it": "In attesa"
+  },
+  "quantity": {
+    "en": "Quantity",
+    "de": "Anzahl",
+    "it": "Quantità"
+  },
+  "all": {
+    "en": "all",
+    "de": "alle",
+    "it": "tutti"
+  },
+  "emailStatus": {
+    "en": "email status",
+    "de": "E-Mail Status",
+    "it": "Stato e-mail"
+  },
+  "paymentStatus": {
+    "en": "Payment status",
+    "de": "Status der Zahlung",
+    "it": "Stato del pagamento"
+  },
+  "ticket": {
+    "en": "Ticket",
+    "de": "Ticket",
+    "it": "Biglietto"
+  },
+  "showTicket": {
+    "en": "Show ticket",
+    "de": "Ticket anzeigen",
+    "it": "Mostra biglietto"
+  },
+  "concert": {
+    "en": "Concert",
+    "de": "Konzert",
+    "it": "Concerto"
+  },
+  "ticketsBooked": {
+    "en": "Booked tickets",
+    "de": "Gebuchte Tickets",
+    "it": "Biglietti prenotati"
+  },
+  "rowsPerPage": { "en": "Rows per page", "de": "Zeilen pro Seite", "it": "righe per pagina" }
+}

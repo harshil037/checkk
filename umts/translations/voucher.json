@@ -1,0 +1,262 @@
+{
+  "addNewVoucher": {
+    "en": "Add new voucher",
+    "de": "Neuen Gutschein hinzufügen",
+    "it": "Aggiungi un nuovo buono"
+  },
+  "language": {
+    "en": "Language",
+    "de": "Sprache",
+    "it": "Lingua"
+  },
+  "vouchers": {
+    "en": "Vouchers",
+    "de": "Gutscheine",
+    "it": "Buoni"
+  },
+  "rowsPerPage": {
+    "en": "Rows per page",
+    "de": "Zeilen pro Seite",
+    "it": "righe per pagina"
+  },
+  "name": {
+    "en": "Name",
+    "de": "Name",
+    "it": "Nome"
+  },
+  "firstName": {
+    "en": "First Name",
+    "de": "Vorname",
+    "it": "Nome"
+  },
+  "lastName": {
+    "en": "Last Name",
+    "de": "Nachname",
+    "it": "Cognome"
+  },
+  "buyerName": {
+    "en": "Buyer's Name",
+    "de": "Name des Käufers",
+    "it": "Nome dell'acquirente"
+  },
+  "voucherCode": {
+    "en": "Voucher Code",
+    "de": "Gutschein Code",
+    "it": "Codice buono"
+  },
+  "email": {
+    "en": "Email",
+    "de": "E-Mail",
+    "it": "Email"
+  },
+  "initialValue": {
+    "en": "Initial value",
+    "de": "Ausgangswert",
+    "it": "Valore iniziale"
+  },
+  "currentValue": {
+    "en": "Current value",
+    "de": "Aktueller Wert",
+    "it": "Valore attuale"
+  },
+  "transactions": {
+    "en": "Transactions",
+    "de": "Transaktionen",
+    "it": "Transazioni"
+  },
+  "transactionsTime": {
+    "en": "Transactions Time",
+    "de": "Transaktionszeit",
+    "it": "Tempo di transazione"
+  },
+  "transactionsType": {
+    "en": "Transactions Type",
+    "de": "Art der Transaktion",
+    "it": "Tipo di transazione"
+  },
+  "noRecordsFound": {
+    "en": "No records found",
+    "de": "Keine Einträge gefunden",
+    "it": "Nessun record trovato"
+  },
+  "newVoucher": {
+    "en": "New Voucher",
+    "de": "Neuer Gutschein",
+    "it": "Nuovo buono"
+  },
+  "selectClient": {
+    "en": "Select client",
+    "de": "Kunde auswählen",
+    "it": "Seleziona cliente"
+  },
+  "selectDomain": {
+    "en": "Select domain",
+    "de": "Domäne auswählen",
+    "it": "Seleziona dominio"
+  },
+  "selectProduct": {
+    "en": "Select product",
+    "de": "Ein Produkt wählen",
+    "it": "Selezionare un prodotto"
+  },
+  "create": {
+    "en": "Create",
+    "de": "Erstellen",
+    "it": "Creare"
+  },
+  "noDomainFound": {
+    "en": "Sorry, we couldn't find any domain. Please select different client.",
+    "de": "Wir konnten leider keine Domain finden. Bitte wählen Sie einen anderen Kunden.",
+    "it": "Spiacenti, non abbiamo trovato alcun dominio. Selezionare un altro cliente."
+  },
+  "noProductFound": {
+    "en": "Sorry, we couldn't find any product. Please select different domain or client.",
+    "de": "Wir konnten leider kein Produkt finden. Bitte wählen Sie eine andere Domain oder einen anderen Kunden.",
+    "it": "Siamo spiacenti, non abbiamo trovato alcun prodotto. Selezionare un altro dominio o cliente."
+  },
+  "transactionAmount": {
+    "en": "Transaction Amount",
+    "de": "Transaktionsbetrag",
+    "it": "Importo della transazione"
+  },
+  "transactionDate": {
+    "en": "Transaction Date",
+    "de": "Datum der Transaktion",
+    "it": "Data della transazione"
+  },
+  "transactionType": {
+    "en": "Transaction Type",
+    "de": "Art der Transaktion",
+    "it": "Tipo di transazione"
+  },
+  "defaultTransactionType": {
+    "en": "Please select type",
+    "de": "Bitte Art auswählen",
+    "it": "Selezionare il tipo"
+  },
+  "validAmount": {
+    "en": "Please enter valid amount.",
+    "de": "Bitte einen gültigen Betrag eingeben.",
+    "it": "Inserire un importo valido."
+  },
+  "validDate": {
+    "en": "Please enter valid date.",
+    "de": "Bitte ein gültiges Datum eingeben.",
+    "it": "Inserire una data valida."
+  },
+  "validType": {
+    "en": "Please select type.",
+    "de": "Bitte Art auswählen.",
+    "it": "Selezionare il tipo."
+  },
+  "id": {
+    "en": "ID",
+    "de": "ID",
+    "it": "ID"
+  },
+  "addTransaction": {
+    "en": "Add Transaction",
+    "de": "Transaktion hinzufügen",
+    "it": "Aggiungi transazione"
+  },
+  "saveTransaction": {
+    "en": "Save Transaction",
+    "de": "Transaktion speichern",
+    "it": "Salva transazione"
+  },
+  "viewVoucher": {
+    "en": "View Voucher",
+    "de": "Gutschein ansehen",
+    "it": "Visualizza il buono"
+  },
+  "downloadVoucher": {
+    "en": "Download Voucher",
+    "de": "Gutschein herunterladen",
+    "it": "Scarica il buono"
+  },
+  "voucher": {
+    "en": "Voucher",
+    "de": "Gutschein",
+    "it": "Buono"
+  },
+  "voucherNotAvailble": {
+    "en": "Sorry, voucher is not availbable.",
+    "de": "Der Gutschein ist leider nicht verfügbar.",
+    "it": "Spiacente, il buono non è disponibile."
+  },
+  "greaterAmount": {
+    "en": "Amount is greater then the redeemable amount.",
+    "de": "Betrag ist größer als der rückzahlbare Betrag.",
+    "it": "L'importo è superiore all'importo rimborsabile."
+  },
+  "notRedeemable": {
+    "en": "Sorry, This voucher is not redeemable.",
+    "de": "Dieser Gutschein ist leider nicht einlösbar.",
+    "it": "Siamo spiacenti, questo buono non è riscattabile."
+  },
+  "redemption": {
+    "en": "redemption",
+    "de": "Einlösung",
+    "it": "redemption"
+  },
+  "charge": {
+    "en": "charge",
+    "de": "Aufladung",
+    "it": "charge"
+  },
+  "cancelVoucher": {
+    "en": "Cancel voucher",
+    "de": "Gutschein löschen",
+    "it": "Cancellare il buono"
+  },
+  "cancelVoucherAlert": {
+    "en": "Are you sure you want to cancel MTS__var voucher?",
+    "de": "Sicher, dass Sie den Gutschein MTS__var löschen möchten?",
+    "it": "Sicuro di voler annullare il voucher MTS__var?"
+  },
+  "voucherStatus": {
+    "en": "Voucher status",
+    "de": "Gutschein Status",
+    "it": "Stato del buono"
+  },
+  "paymentStatus": {
+    "en": "Payment status",
+    "de": "Status der Zahlung",
+    "it": "Stato del pagamento"
+  },
+  "pending": {
+    "en": "pending",
+    "de": "ausstehend",
+    "it": "in attesa"
+  },
+  "success": {
+    "en": "success",
+    "de": "erfolgreich",
+    "it": "riuscito"
+  },
+  "failed": {
+    "en": "failed",
+    "de": "fehlgeschlagen",
+    "it": "fallito"
+  },
+  "registered": {
+    "en": "registered",
+    "de": "registriert",
+    "it": "registrato"
+  },
+  "redeemable": {
+    "en": "redeemable",
+    "de": "einlösbar",
+    "it": "riscattabile"
+  },
+  "redeemed": {
+    "en": "redeemed",
+    "de": "eingelöst",
+    "it": "riscattato"
+  },
+  "cancelled": {
+    "en": "cancelled",
+    "de": "storniert",
+    "it": "cancellato"
+  }
+}

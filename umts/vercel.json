@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "pages/api/graphql/[source]/[client]/[version].js": {
+      "maxDuration": 10
+    }
+  }
+}
